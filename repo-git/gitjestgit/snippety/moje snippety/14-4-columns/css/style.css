@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.column-1-4 {
+	height: 100vh;
+	width: 25%;
+	display: inline-block;
+	float: left;
+	transition: all 0.5s linear;
+	
+}
+
+.background {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 200%;
+	background-repeat: no-repeat;
+	
+}
+
+.column-1-4:hover {
+	width: 40%;
+
+}
+
+.container:hover .column-1-4:not(:hover) {
+	width: 20%;
+	
+}
+
+
+.column-1-4:last-child {
+	position: absolute;
+	right: 0;
+}
+
+
+
+#background-1 {
+	background-image: url(http://miriadna.com/desctopwalls/images/max/View-of-the-valley.jpg);
+}
+
+#background-2 {
+	background-image: url(http://miriadna.com/desctopwalls/images/max/Another-ordinary-day.jpg);
+}
+
+#background-3 {
+	background-image: url(http://t-ec.bstatic.com/images/hotel/840x460/589/58997502.jpg);
+}
+
+
+#background-4 {
+	background-image: url(http://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2016/08/google-streetview.jpg);
+}

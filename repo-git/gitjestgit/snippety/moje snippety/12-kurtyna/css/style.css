@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: aqua;
+}
+
+.curtain {
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+.top {
+	
+	background-image: url(http://miriadna.com/desctopwalls/images/max/View-of-the-valley.jpg);
+	background-position: center;
+	background-size: cover;
+	animation-name: top-down;
+	bottom: 50vh;
+}
+
+.bottom {
+	
+	animation-name: bottom-up;
+	top: 50vh;	
+	background-color: fuchsia;
+}
+
+
+@keyframes bottom-up {
+	0% {
+		top: 100vh;
+	}
+	
+	
+	100% {
+		top: 50vh;
+	}
+}
+
+
+@keyframes top-down {
+	0% {
+		bottom: 100vh;
+	}
+	100% {
+		bottom: 50vh;
+	}
+}

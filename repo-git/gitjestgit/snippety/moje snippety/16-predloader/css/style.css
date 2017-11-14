@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: lightblue;
+}
+
+.loader {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.square {
+	
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(0deg);
+	
+	
+}
+
+.square:first-child {
+	animation: load-one;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	top:0;
+	left: 0;
+}
+
+
+.square:last-child {
+	bottom: 0;
+	right: 0;
+	animation: load-two;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+
+@keyframes load-one {
+	0%{
+		top:0;
+		left: 0;
+		height: 30px;
+		width: 30px;
+		transform: rotate(0deg);
+	}
+	25% {
+		top:70px;
+		left: 0;
+		height: 15px;
+		width: 15px;
+		transform: rotate(45deg);
+	}
+	50% {
+		top:70px;
+		left: 70px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(90deg);
+	}
+	
+	75% {
+		top:0px;
+		left: 70px;
+		height: 15px;
+		width: 15px;
+		transform: rotate(135deg);
+	}
+	
+	100% {
+		top:0px;
+		left: 0px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(180deg);
+	}
+	
+}
+
+
+@keyframes load-two {
+	0%{
+		bottom:0;
+		right: 0;
+		height: 30px;
+		width: 30px;
+		transform: rotate(0deg);
+	}
+	25% {
+		bottom:70px;
+		right: 0;
+		height: 15px;
+		width: 15px;
+		transform: rotate(45deg);
+	}
+	50% {
+		bottom:70px;
+		right: 70px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(90deg);
+	}
+	
+	75% {
+		bottom:0px;
+		right: 70px;
+		height: 15px;
+		width: 15px;
+		transform: rotate(135deg);
+	}
+	
+	100% {
+		bottom:0px;
+		right: 0px;
+		height: 30px;
+		width: 30px;
+		transform: rotate(180deg);
+	}
+	
+}

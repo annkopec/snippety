@@ -1,0 +1,5 @@
+Stwórz interaktywne przyciski.
+
+Każdy przycisk ma mieć fragment "ramki" na lewym górnym rogu oraz na prawym dolnym. Po najechaniu kursorem "ramka" ma się rozszerzyć na tworząc niemal pełne obramowanie przycisku zgodnie w przykładem przedstawionym w załączniku.  Do wykonania zadania użyj efektu transition oraz pseudoelementów ::before oraz ::after.
+
+Załączony obrazek z podglądem efektu przed i po najechaniu kursorem.

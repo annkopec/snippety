@@ -1,0 +1,9 @@
+Stwórz interaktywny box informacyjny.
+
+Box ma wyświetlać nagłówek na tle graficznym. Po najechaniu myszką ma
+się pojawiać półprzezroczyste tło, opis pod nagłówkiem oraz ramka
+oblewająca nagłówek i opis pod nagłówkiem. Do wykonania zadania użyj
+efektu transition oraz pseudoelementów ::before oraz ::after.
+
+Załączony na obrazku podgląd efektu przed i po najechaniu kursorem oraz grafiki,
+które należy umieścić w tle.

@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+#first-image {
+	background-image: url(https://cdn.pixabay.com/photo/2016/01/08/16/53/flame-1128636_960_720.jpg);
+}
+
+.img-container {
+	width: 500px;
+	height: 500px;
+	border: red 10px solid;
+	overflow: hidden;
+}
+
+.img-container .img-background {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s;
+}
+
+.img-container:hover .img-background {
+	transform: scale(1.5);
+}

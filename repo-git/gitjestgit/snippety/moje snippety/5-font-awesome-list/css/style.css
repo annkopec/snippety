@@ -1,0 +1,10 @@
+ul {
+	list-style-type: none;
+}
+
+
+li.fa-hand-bullet::before {
+	content: '\f0a4';
+	font-family: FontAwesome;
+	margin-right: 5px;
+}

@@ -1,0 +1,19 @@
+a {
+	font-size: 20px;
+	color: darkviolet;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+
+a[href$=".doc"] {
+	color: red;
+}
+
+a[href$=".docx"] {
+	color: green;
+}

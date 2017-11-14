@@ -1,0 +1,24 @@
+q[lang*="en"], blockquote[lang*="en"] {
+
+   quotes: "*" "*";
+}
+
+q[lang*="en"]::before, blockquote[lang*="en"]::before {
+    content: open-quote;
+}
+q[lang*="en"]::after, blockquote[lang*="en"]::after {
+    content: close-quote;
+}
+
+
+q:not([lang*="en"]), blockquote:not([lang*="en"]) {
+
+   quotes: "\0022" "\0022";
+}
+
+q:not([lang*="en"])::before, blockquote:not([lang*="en"])::before {
+    content: open-quote;
+}
+q:not([lang*="en"])::after, blockquote:not([lang*="en"])::after {
+    content: close-quote;
+}

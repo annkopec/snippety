@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+}
+
+#content {
+	height: 200vh;
+	width: 100%;
+	background: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+footer {
+	height: 100px;
+	background-color: orchid;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

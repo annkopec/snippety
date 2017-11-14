@@ -1,0 +1,21 @@
+.cicle-button {
+	text-decoration: none;
+	background-color: darkturquoise;
+	border: 1px solid darkturquoise;
+	border-radius: 50%;
+	line-height: 100px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	transition: all 0.4s;
+}
+
+.cicle-button:hover {
+
+	background-color: #fff;
+	color: darkturquoise;
+
+}
